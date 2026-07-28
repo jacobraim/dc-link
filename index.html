@@ -27,7 +27,7 @@
       <button id="play-button" class="primary-button">Play</button>
     </section>
 
-    <section id="game-screen" class="screen hidden">
+    <section id="game-screen" class="screen game-board hidden">
       <header class="game-header">
         <div>
           <div class="eyebrow">WASHINGTONIAN GAMES</div>
@@ -41,6 +41,7 @@
         <p>Here are all four groups.</p>
       </div>
       <div id="solved-groups" class="solved-groups" aria-live="polite"></div>
+      <p id="selection-prompt" class="selection-prompt">Select four connected tiles</p>
       <div id="tile-grid" class="tile-grid" aria-label="Puzzle tiles"></div>
 
       <div class="status-bar">
@@ -64,6 +65,7 @@
     <section id="end-screen" class="screen card end-screen hidden">
       <div class="eyebrow">WASHINGTONIAN GAMES</div>
       <h1 id="end-title">You solved DC Link!</h1>
+      <p class="end-kicker">Your path through today’s puzzle</p>
       <div id="end-grid" class="share-grid" aria-label="Result grid"></div>
       <div class="end-actions">
         <button id="share-button" class="primary-button">Share</button>

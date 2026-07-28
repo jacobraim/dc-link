@@ -12,47 +12,27 @@ const DC_LINK_PUZZLES = {
     groups: [
       {
         id: 'green',
-        label: 'Places beginning with “Union”',
+        label: 'Classic DC restaurants',
         color: 'green',
-        items: [
-          'Union Station',
-          'Union Market',
-          'Union Stage',
-          'Union Pub'
-        ]
+        items: ["Ben's Chili Bowl", 'Old Ebbitt Grill', "Martin's Tavern", 'The Monocle']
       },
       {
         id: 'yellow',
-        label: 'DC traffic circles',
+        label: 'Metro lines',
         color: 'yellow',
-        items: [
-          'Dupont Circle',
-          'Logan Circle',
-          'Thomas Circle',
-          'Scott Circle'
-        ]
+        items: ['Red Line', 'Blue Line', 'Green Line', 'Silver Line']
       },
       {
         id: 'blue',
-        label: 'DC music venues',
+        label: 'DC neighborhoods with circles',
         color: 'blue',
-        items: [
-          '9:30 Club',
-          'Black Cat',
-          'The Anthem',
-          'Howard Theatre'
-        ]
+        items: ['Dupont Circle', 'Logan Circle', 'Thomas Circle', 'Sheridan Circle']
       },
       {
         id: 'purple',
-        label: 'Green Line Metro stations',
+        label: 'Smithsonian museums on the National Mall',
         color: 'purple',
-        items: [
-          'Navy Yard-Ballpark',
-          'Shaw-Howard U',
-          'U Street',
-          'Waterfront'
-        ]
+        items: ['Hirshhorn', 'Air and Space', 'American History', 'Natural History']
       }
     ]
   }

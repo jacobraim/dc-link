@@ -83,6 +83,7 @@ function shuffle(array) {
 function resetState() {
   $('reveal-heading').classList.add('hidden');
   tileGrid.classList.remove('hidden');
+  $('selection-prompt').classList.remove('hidden');
   document.querySelector('.status-bar').classList.remove('hidden');
   $('game-controls').classList.remove('hidden');
   $('reveal-controls').classList.add('hidden');
@@ -163,12 +164,20 @@ function submitGuess() {
 
   if (solvedGroup) {
     state.guessHistory.push({ signature, items: guess, correct: true });
-    state.solved.push(solvedGroup);
-    state.remainingItems = state.remainingItems.filter(item => !state.selected.has(item));
-    state.selected.clear();
-    message.textContent = 'Correct!';
-    render();
-    if (state.solved.length === 4) setTimeout(() => finishGame(true), 450);
+    message.textContent = 'Connected!';
+    submitButton.disabled = true;
+
+    [...tileGrid.children].forEach(tile => {
+      if (state.selected.has(tile.textContent)) tile.classList.add('solving');
+    });
+
+    setTimeout(() => {
+      state.solved.push(solvedGroup);
+      state.remainingItems = state.remainingItems.filter(item => !state.selected.has(item));
+      state.selected.clear();
+      render();
+      if (state.solved.length === 4) setTimeout(() => finishGame(true), 650);
+    }, 430);
     return;
   }
 
@@ -193,6 +202,7 @@ function revealAnswers() {
 
   $('reveal-heading').classList.remove('hidden');
   tileGrid.classList.add('hidden');
+  $('selection-prompt').classList.add('hidden');
   document.querySelector('.status-bar').classList.add('hidden');
   $('game-controls').classList.add('hidden');
   $('reveal-controls').classList.remove('hidden');
