@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DC Link Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Libre+Franklin:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section id="start-screen" class="screen card start-screen">
+      <div class="eyebrow">WASHINGTONIAN GAMES</div>
+      <h1>DC LINK <span data-puzzle-number>#1</span></h1>
+      <p class="lede">Find four groups of four connected by a shared DC theme.</p>
+      <div class="rules">
+        <p>Some tiles may seem to fit more than one group.</p>
+        <div class="difficulty-row" aria-label="Difficulty levels">
+          <span class="difficulty green">Easy</span>
+          <span class="difficulty yellow">Medium</span>
+          <span class="difficulty blue">Hard</span>
+          <span class="difficulty purple">Very Hard</span>
+        </div>
+      </div>
+      <button id="play-button" class="primary-button">Play</button>
+    </section>
+
+    <section id="game-screen" class="screen hidden">
+      <header class="game-header">
+        <div>
+          <div class="eyebrow">WASHINGTONIAN GAMES</div>
+          <h1>DC LINK <span data-puzzle-number>#1</span></h1>
+        </div>
+        <button id="how-button" class="text-button">How to play</button>
+      </header>
+
+      <div id="reveal-heading" class="reveal-heading hidden">
+        <h2>The answers</h2>
+        <p>Here are all four groups.</p>
+      </div>
+      <div id="solved-groups" class="solved-groups" aria-live="polite"></div>
+      <div id="tile-grid" class="tile-grid" aria-label="Puzzle tiles"></div>
+
+      <div class="status-bar">
+        <div class="mistakes-wrap">
+          <span>Mistakes remaining</span>
+          <div id="mistakes" class="mistakes" aria-label="4 mistakes remaining"></div>
+        </div>
+        <div id="message" class="message" aria-live="polite"></div>
+      </div>
+
+      <div id="game-controls" class="controls">
+        <button id="shuffle-button" class="secondary-button">Shuffle</button>
+        <button id="deselect-button" class="secondary-button">Deselect</button>
+        <button id="submit-button" class="primary-button" disabled>Submit</button>
+      </div>
+      <div id="reveal-controls" class="reveal-controls hidden">
+        <button id="continue-button" class="primary-button">See results</button>
+      </div>
+    </section>
+
+    <section id="end-screen" class="screen card end-screen hidden">
+      <div class="eyebrow">WASHINGTONIAN GAMES</div>
+      <h1 id="end-title">You solved DC Link!</h1>
+      <div id="end-grid" class="share-grid" aria-label="Result grid"></div>
+      <div class="end-actions">
+        <button id="share-button" class="primary-button">Share</button>
+        <button id="replay-button" class="secondary-button">Play again</button>
+      </div>
+      <a class="districted-link" href="#">Play Districted →</a>
+    </section>
+  </main>
+
+  <dialog id="how-dialog">
+    <button id="close-how" class="dialog-close" aria-label="Close">×</button>
+    <h2>How to play</h2>
+    <p>Select four tiles that share a DC connection, then press Submit.</p>
+    <p>Find all four groups before you run out of mistakes.</p>
+  </dialog>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+
+  <script src="puzzles.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
