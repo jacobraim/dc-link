@@ -7,33 +7,52 @@
  */
 
 const DC_LINK_PUZZLES = {
-  '2026-07-28': {
-    number: 1,
-    groups: [
-      {
-        id: 'green',
-        label: 'Classic DC restaurants',
-        color: 'green',
-        items: ["Ben's Chili Bowl", 'Old Ebbitt Grill', "Martin's Tavern", 'The Monocle']
-      },
-      {
-        id: 'yellow',
-        label: 'Metro lines',
-        color: 'yellow',
-        items: ['Red Line', 'Blue Line', 'Green Line', 'Silver Line']
-      },
-      {
-        id: 'blue',
-        label: 'DC neighborhoods with circles',
-        color: 'blue',
-        items: ['Dupont Circle', 'Logan Circle', 'Thomas Circle', 'Sheridan Circle']
-      },
-      {
-        id: 'purple',
-        label: 'Smithsonian museums on the National Mall',
-        color: 'purple',
-        items: ['Hirshhorn', 'Air and Space', 'American History', 'Natural History']
-      }
-    ]
-  }
+'2026-07-28': {
+  number: 1,
+  groups: [
+    {
+      id: 'green',
+      label: 'Places beginning with “Union”',
+      color: 'green',
+      items: [
+        'Union Station',
+        'Union Market',
+        'Union Stage',
+        'Union Pub'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC traffic circles',
+      color: 'yellow',
+      items: [
+        'Dupont Circle',
+        'Logan Circle',
+        'Thomas Circle',
+        'Scott Circle'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC music venues',
+      color: 'blue',
+      items: [
+        '9:30 Club',
+        'Black Cat',
+        'The Anthem',
+        'Howard Theatre'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Green Line Metro stations',
+      color: 'purple',
+      items: [
+        'Navy Yard-Ballpark',
+        'Shaw-Howard U',
+        'U Street',
+        'Waterfront'
+      ]
+    }
+  ]
 };
