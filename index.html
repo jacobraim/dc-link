@@ -25,12 +25,12 @@
         <button id="how-button" class="text-button">ⓘ How to Play</button>
       </header>
 
+      <p id="selection-prompt" class="selection-prompt">Select four connected tiles</p>
       <div id="reveal-heading" class="reveal-heading hidden">
         <h2>The answers</h2>
         <p>Here are all four groups.</p>
       </div>
       <div id="solved-groups" class="solved-groups" aria-live="polite"></div>
-      <p id="selection-prompt" class="selection-prompt">Select four connected tiles</p>
       <div id="tile-grid" class="tile-grid" aria-label="Puzzle tiles"></div>
 
       <div class="status-bar">
@@ -60,7 +60,18 @@
         <button id="share-button" class="primary-button">Share</button>
         <button id="replay-button" class="secondary-button">Play Again</button>
       </div>
-      <a class="districted-link" href="#">Play Districted →</a>
+    </section>
+
+    <section id="keep-playing" class="keep-playing hidden">
+      <h2>Keep Playing</h2>
+      <a class="game-promo" href="https://washingtonian.com/districted/" target="_top">
+        <div class="game-promo-placeholder" aria-hidden="true">DC</div>
+        <div class="game-promo-copy">
+          <div class="game-promo-eyebrow">WASHINGTONIAN GAMES</div>
+          <div class="game-promo-title">Districted</div>
+          <p>Think you know DC? Prove it in our location-finding puzzle game.</p>
+        </div>
+      </a>
     </section>
   </main>
 

@@ -221,6 +221,7 @@ function revealAnswers() {
 function finishGame(won) {
   gameScreen.classList.add('hidden');
   endScreen.classList.remove('hidden');
+  $('keep-playing').classList.remove('hidden');
   $('end-title').textContent = won ? 'You solved DC Link!' : 'Better luck tomorrow';
   renderResultGrid();
 }
@@ -278,6 +279,7 @@ $('deselect-button').addEventListener('click', () => {
 });
 $('replay-button').addEventListener('click', () => {
   endScreen.classList.add('hidden');
+  $('keep-playing').classList.add('hidden');
   gameScreen.classList.remove('hidden');
   resetState();
 });
