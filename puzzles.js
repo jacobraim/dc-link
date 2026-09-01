@@ -14,7 +14,7 @@ const DC_LINK_PUZZLES = {
       {
         id: 'green',
         label: 'Places beginning with “Union”',
-        color: 'green',
+        color: 'blue',
         items: [
           'STATION',
           'MARKET',
@@ -36,7 +36,7 @@ const DC_LINK_PUZZLES = {
       {
         id: 'blue',
         label: 'DC music venues',
-        color: 'blue',
+        color: 'green',
         items: [
           '9:30',
           'BLACK CAT',
