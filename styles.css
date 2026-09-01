@@ -266,7 +266,61 @@ h1 {
 }
 .share-square { aspect-ratio: 1; border-radius: 5px; border: 1px solid rgba(0,0,0,.08); }
 .end-actions { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 24px 0; }
-.districted-link { color: #d71920; font-weight: 800; }
+.keep-playing {
+  margin: 28px auto 0;
+  text-align: center;
+}
+.keep-playing h2 {
+  margin: 0 0 18px;
+  color: #4f5874;
+  font-size: 20px;
+  font-weight: 800;
+}
+.game-promo {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 28px 36px;
+  border: 1px solid #d7d7d7;
+  border-radius: 26px;
+  background: #fff;
+  color: #171717;
+  text-align: left;
+  text-decoration: none;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.game-promo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+}
+.game-promo-placeholder {
+  display: grid;
+  place-items: center;
+  flex: 0 0 150px;
+  height: 112px;
+  background: #dff5fb;
+  color: #61708a;
+  font-size: 30px;
+  font-weight: 800;
+}
+.game-promo-eyebrow {
+  color: #315b9a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .03em;
+}
+.game-promo-title {
+  margin-top: 3px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+  line-height: 1;
+}
+.game-promo p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
 
 dialog {
   width: min(440px, calc(100% - 32px));
@@ -344,4 +398,127 @@ dialog::backdrop { background: rgba(18,18,18,.5); }
   .controls .secondary-button { width: 100%; }
   .solved-group { padding: 12px 8px; }
   .solved-group p { font-size: 12px; }
+  .game-promo { padding: 20px; gap: 15px; border-radius: 20px; }
+  .game-promo-placeholder { flex-basis: 105px; height: 88px; }
+  .game-promo-title { font-size: 30px; }
+  .game-promo p { font-size: 14px; }
+}
+
+
+/* End-screen cross-promotion card */
+.keep-playing {
+  width: 100%;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.keep-playing h2 {
+  margin: 0 0 20px;
+  color: #4f5874;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -.02em;
+}
+
+.game-promo,
+.game-promo:link,
+.game-promo:visited,
+.game-promo:hover,
+.game-promo:active {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.game-promo {
+  width: 100%;
+  min-height: 178px;
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  padding: 28px 34px;
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 24px;
+  text-align: left;
+  box-shadow: none;
+}
+
+.game-promo:hover {
+  transform: none;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(0,0,0,.045);
+}
+
+.game-promo-placeholder {
+  width: 190px;
+  height: 132px;
+  display: grid;
+  place-items: center;
+  background: #dff5fb;
+  color: #5c6f85;
+  font-family: "Libre Franklin", Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -.04em;
+}
+
+.game-promo-copy {
+  min-width: 0;
+}
+
+.game-promo-eyebrow {
+  margin: 0 0 5px;
+  color: #315b9a;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.game-promo-title {
+  margin: 0;
+  color: #111;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  line-height: .98;
+  font-weight: 400;
+  letter-spacing: -.035em;
+}
+
+.game-promo p {
+  max-width: 410px;
+  margin: 12px 0 0;
+  color: #171717;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .keep-playing { margin-top: 24px; }
+  .keep-playing h2 { font-size: 20px; margin-bottom: 16px; }
+
+  .game-promo {
+    grid-template-columns: 112px minmax(0, 1fr);
+    gap: 16px;
+    min-height: 132px;
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  .game-promo-placeholder {
+    width: 112px;
+    height: 92px;
+    font-size: 19px;
+  }
+
+  .game-promo-eyebrow { font-size: 10px; }
+  .game-promo-title { font-size: 30px; }
+  .game-promo p { margin-top: 8px; font-size: 13px; line-height: 1.3; }
 }
