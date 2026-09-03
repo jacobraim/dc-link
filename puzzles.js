@@ -108,55 +108,55 @@ const DC_LINK_PUZZLES = {
     ]
   },
 
-  '2026-09-03': {
-    number: 3,
-    groups: [
-      {
-        id: 'green',
-        label: 'DC pro sports teams',
-        color: 'green',
-        items: [
-          'CAPITALS',
-          'MYSTICS',
-          'DEFENDERS',
-          'UNITED'
-        ]
-      },
-      {
-        id: 'yellow',
-        label: 'Single-letter DC streets',
-        color: 'yellow',
-        items: [
-          'H',
-          'K',
-          'M',
-          'U'
-        ]
-      },
-      {
-        id: 'blue',
-        label: 'First words of DC restaurants',
-        color: 'blue',
-        items: [
-          'OLD',
-          "BEN'S",
-          "MARTIN'S",
-          "DUKE'S"
-        ]
-      },
-      {
-        id: 'purple',
-        label: 'Washington ___',
-        color: 'purple',
-        items: [
-          'POST',
-          'BALLET',
-          'MONUMENT',
-          'NATIONALS'
-        ]
-      }
-    ]
-  },
+ '2026-09-03': {
+  number: 3,
+  groups: [
+    {
+      id: 'green',
+      label: 'Single-letter DC streets',
+      color: 'green',
+      items: [
+        'H',
+        'K',
+        'M',
+        'U'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'First words of classic DC restaurants',
+      color: 'yellow',
+      items: [
+        'OLD',
+        "BEN'S",
+        "MARTIN'S",
+        "DUKE'S"
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC pro team names that don’t end in S',
+      color: 'blue',
+      items: [
+        'UNITED',
+        'SPIRIT',
+        'POWER',
+        'GLORY'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Washington ___',
+      color: 'purple',
+      items: [
+        'POST',
+        'BALLET',
+        'MONUMENT',
+        'NATIONALS'
+      ]
+    }
+  ]
+},
 
   '2026-09-04': {
     number: 4,
