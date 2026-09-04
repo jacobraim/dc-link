@@ -308,54 +308,53 @@ const DC_LINK_PUZZLES = {
     ]
   },
 
-  '2026-09-07': {
-    number: 7,
-    groups: [
-      {
-        id: 'green',
-        label: 'DC music venues',
-        color: 'green',
-        items: [
-          'ANTHEM',
-          'ATLANTIS',
-          'BLACK CAT',
-          'HOWARD'
-        ]
-      },
-      {
-        id: 'yellow',
-        label: 'Metro stations with “Square”',
-        color: 'yellow',
-        items: [
-          'MCPHERSON',
-          'JUDICIARY',
-          'MOUNT VERNON',
-          'FARRAGUT'
-        ]
-      },
-      {
-        id: 'blue',
-        label: 'First words of famous DC restaurants',
-        color: 'blue',
-        items: [
-          'OLD',
-          'IRON',
-          'BLUE',
-          'RED'
-        ]
-      },
-      {
-        id: 'purple',
-        label: '___ Line',
-        color: 'purple',
-        items: [
-          'RED',
-          'BLUE',
-          'GREEN',
-          'YELLOW'
-        ]
-      }
-    ]
-  }
-
+'2026-09-04': {
+  number: 4,
+  groups: [
+    {
+      id: 'green',
+      label: 'Metro lines',
+      color: 'green',
+      items: [
+        'RED',
+        'BLUE',
+        'GREEN',
+        'SILVER'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC universities',
+      color: 'yellow',
+      items: [
+        'HOWARD',
+        'AMERICAN',
+        'CATHOLIC',
+        'GALLAUDET'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___ House',
+      color: 'blue',
+      items: [
+        'WHITE',
+        'BLAIR',
+        'OCTAGON',
+        'DUMBARTON'
+      ]
+    },
+ {
+  id: 'purple',
+  label: 'DC squares',
+  color: 'purple',
+  items: [
+    'FARRAGUT',
+    'MCPHERSON',
+    'MOUNT VERNON',
+    'JUDICIARY'
+  ]
+}
+  ]
+}
 };
