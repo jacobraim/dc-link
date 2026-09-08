@@ -8,7 +8,7 @@
 
 const DC_LINK_PUZZLES = {
 
-  '2026-09-01': {
+  '2026-09-08': {
     number: 1,
     groups: [
       {
@@ -58,7 +58,7 @@ const DC_LINK_PUZZLES = {
     ]
   },
 
-  '2026-09-02': {
+  '2026-09-09': {
     number: 2,
     groups: [
       {
@@ -108,7 +108,7 @@ const DC_LINK_PUZZLES = {
     ]
   },
 
- '2026-09-03': {
+ '2026-09-10': {
   number: 3,
   groups: [
     {
@@ -158,7 +158,7 @@ const DC_LINK_PUZZLES = {
   ]
 },
 
-  '2026-09-04': {
+  '2026-09-11': {
     number: 4,
     groups: [
       {
