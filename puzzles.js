@@ -353,8 +353,257 @@ const DC_LINK_PUZZLES = {
     'MCPHERSON',
     'MOUNT VERNON',
     'JUDICIARY'
+      ]
+    }
   ]
-}
+},
+    '2026-09-14': {
+  number: 5,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC neighborhoods',
+      color: 'green',
+      items: [
+        'PETWORTH',
+        'KALORAMA',
+        'BURLEITH',
+        'CRESTWOOD'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC museums not part of the Smithsonian',
+      color: 'yellow',
+      items: [
+        'PHILLIPS',
+        'RUBELL',
+        'SPY',
+        'BIBLE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC bookstores',
+      color: 'blue',
+      items: [
+        'LOYALTY',
+        'SOLID STATE',
+        'LOST CITY',
+        'SECOND STORY'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Words that can precede “Museum”',
+      color: 'purple',
+      items: [
+        'ART',
+        'HISTORY',
+        'SCIENCE',
+        'WAX'
+      ]
+    }
+  ]
+},
+
+'2026-09-15': {
+  number: 6,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC bridges',
+      color: 'green',
+      items: [
+        'KEY',
+        'CHAIN',
+        'TAFT',
+        'FREDERICK DOUGLASS'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC hotels',
+      color: 'yellow',
+      items: [
+        'RIGGS',
+        'CONRAD',
+        'WATERGATE',
+        'LINE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC cocktail bars',
+      color: 'blue',
+      items: [
+        'ALLEGORY',
+        'OKPB',
+        'LEFT DOOR',
+        'MIRROR'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Things that can have a “Key”',
+      color: 'purple',
+      items: [
+        'MAP',
+        'PIANO',
+        'LOCK',
+        'KEYBOARD'
+      ]
+    }
+  ]
+},
+
+'2026-09-16': {
+  number: 7,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC parks',
+      color: 'green',
+      items: [
+        'FORT RENO',
+        'KENILWORTH',
+        'THE YARDS',
+        'KINGMAN'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC theaters',
+      color: 'yellow',
+      items: [
+        'ARENA',
+        'WOOLLY MAMMOTH',
+        'KEEGAN',
+        'MOSAIC'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'First words of DC restaurants',
+      color: 'blue',
+      items: [
+        'MOON',
+        "ROSE'S",
+        'PINEAPPLE',
+        'PASTIS'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Things associated with navigation',
+      color: 'purple',
+      items: [
+        'NORTH',
+        'BEARING',
+        'HEADING',
+        'CHART'
+      ]
+    }
+  ]
+},
+
+'2026-09-17': {
+  number: 8,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC-area airports',
+      color: 'green',
+      items: [
+        'DULLES',
+        'REAGAN',
+        'BALTIMORE WASHINGTON INTERNATIONAL',
+        'MANASSAS'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC monuments or memorials',
+      color: 'yellow',
+      items: [
+        'EINSTEIN',
+        'MLK',
+        'FDR',
+        'KOREAN WAR'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC restaurant names',
+      color: 'blue',
+      items: [
+        'LUTÈCE',
+        'JÔNT',
+        'MAYDĀN',
+        'IMPERFECTO'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Initialisms commonly heard around Washington',
+      color: 'purple',
+      items: [
+        'DCA',
+        'WMATA',
+        'OMB',
+        'NPR'
+      ]
+    }
+  ]
+},
+
+'2026-09-18': {
+  number: 9,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC neighborhood names with two words',
+      color: 'green',
+      items: [
+        'MOUNT PLEASANT',
+        'IVY CITY',
+        'FORT LINCOLN',
+        'SPRING VALLEY'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC markets',
+      color: 'yellow',
+      items: [
+        'EASTERN',
+        'FISH',
+        'MT. PLEASANT',
+        'CAPITAL HARVEST'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC restaurant names involving animals',
+      color: 'blue',
+      items: [
+        'MOON RABBIT',
+        'RED HEN',
+        'ROOSTER & OWL',
+        'DUCK & PEACH'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Animals in the Chinese zodiac',
+      color: 'purple',
+      items: [
+        'TIGER',
+        'HORSE',
+        'SNAKE',
+        'MONKEY'
+      ]
+    }
   ]
 }
 };
