@@ -605,5 +605,250 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-09-21': {
+  number: 10,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC public high schools',
+      color: 'green',
+      items: [
+        'JACKSON-REED',
+        'DUNBAR',
+        'CARDOZO',
+        'BALLOU'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'State-named avenues in DC',
+      color: 'yellow',
+      items: [
+        'CONNECTICUT',
+        'WISCONSIN',
+        'MASSACHUSETTS',
+        'PENNSYLVANIA'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC Public Library branches',
+      color: 'blue',
+      items: [
+        'TENLEY-FRIENDSHIP',
+        'WOODRIDGE',
+        'SOUTHWEST',
+        'WEST END'
+      ]
+    },
+    {
+      id: 'purple',
+      label: '___ card',
+      color: 'purple',
+      items: [
+        'LIBRARY',
+        'CREDIT',
+        'REPORT',
+        'WILD'
+      ]
+    }
+  ]
+},
+  '2026-09-22': {
+  number: 11,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC waterways',
+      color: 'green',
+      items: [
+        'POTOMAC',
+        'ANACOSTIA',
+        'ROCK CREEK',
+        'C&O CANAL'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC college team names',
+      color: 'yellow',
+      items: [
+        'HOYAS',
+        'REVOLUTIONARIES',
+        'EAGLES',
+        'BISON'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Rock ___',
+      color: 'blue',
+      items: [
+        'MUSIC',
+        'SALT',
+        'BOTTOM',
+        'CLIMBING'
+      ]
+    },
+{
+  id: 'purple',
+  label: 'DC radio stations',
+  color: 'purple',
+  items: [
+    'WAMU',
+    'WTOP',
+    'WHUR',
+    'WPGC'
+  ]
+    }
+  ]
+},
+'2026-09-23': {
+  number: 12,
+  groups: [
+    {
+      id: 'green',
+      label: 'TV series centered on Washington',
+      color: 'green',
+      items: [
+        'VEEP',
+        'SCANDAL',
+        'HOMELAND',
+        'THE WEST WING'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC go-go bands',
+      color: 'yellow',
+      items: [
+        'RARE ESSENCE',
+        'TROUBLE FUNK',
+        'EXPERIENCE UNLIMITED',
+        'BACKYARD BAND'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Federal agencies headquartered in DC',
+      color: 'blue',
+      items: [
+        'EPA',
+        'HUD',
+        'NASA',
+        'SEC'
+      ]
+    },
+    {
+      id: 'purple',
+      label: '___ Court',
+      color: 'purple',
+      items: [
+        'SUPREME',
+        'DISTRICT',
+        'TENNIS',
+        'FOOD'
+      ]
+    }
+  ]
+},
+'2026-09-24': {
+  number: 13,
+  groups: [
+    {
+      id: 'green',
+      label: 'National ___ in DC',
+      color: 'green',
+      items: [
+        'CATHEDRAL',
+        'ARBORETUM',
+        'ZOO',
+        'GALLERY'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Countries with embassies on Massachusetts Avenue',
+      color: 'yellow',
+      items: [
+        'JAPAN',
+        'INDIA',
+        'BRAZIL',
+        'TURKEY'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Former Washington Wizards stars',
+      color: 'blue',
+      items: [
+        'JORDAN',
+        'WALL',
+        'ARENAS',
+        'BEAL'
+      ]
+    },
+    {
+      id: 'purple',
+      label: '___ Wright',
+      color: 'purple',
+      items: [
+        'FRANK LLOYD',
+        'ORVILLE',
+        'ROBIN',
+        'RICHARD'
+      ]
+    }
+  ]
+},
+  '2026-09-25': {
+  number: 14,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC food touchstones',
+      color: 'green',
+      items: [
+        'HALF-SMOKE',
+        'MUMBO SAUCE',
+        'JUMBO SLICE',
+        'PUPUSA'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Annual DC festivals',
+      color: 'yellow',
+      items: [
+        'CHERRY BLOSSOM',
+        'FOLKLIFE',
+        'DC JAZZ',
+        'FIESTA DC'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Half ___',
+      color: 'blue',
+      items: [
+        'NOTE',
+        'PINT',
+        'TRUTH',
+        'LIFE'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Official DC symbols',
+      color: 'purple',
+      items: [
+        'WOOD THRUSH',
+        'SCARLET OAK',
+        'CHERRY',
+        'CAPITALSAURUS'
+      ]
+    }
+  ]
 }
 };
