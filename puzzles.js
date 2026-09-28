@@ -850,5 +850,303 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-09-28': {
+  number: 15,
+  groups: [
+    {
+      id: 'green',
+      label: 'Smithsonian museums on the National Mall',
+      color: 'green',
+      items: [
+        'AIR & SPACE',
+        'NATURAL HISTORY',
+        'AMERICAN INDIAN',
+        'ASIAN ART'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Capitol Hill parks',
+      color: 'yellow',
+      items: [
+        'FOLGER',
+        'MARION',
+        'STANTON',
+        'SEWARD'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___ art',
+      color: 'blue',
+      items: [
+        'POP',
+        'FINE',
+        'MARTIAL',
+        'CLIP'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Hispanic liberators with statues in DC',
+      color: 'purple',
+      items: [
+        'ARTIGAS',
+        'BOLÍVAR',
+        'SAN MARTÍN',
+        'GÁLVEZ'
+      ]
+    }
+  ]
+},
+
+'2026-09-29': {
+  number: 16,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC sports venues',
+      color: 'green',
+      items: [
+        'AUDI FIELD',
+        'NATIONALS PARK',
+        'CAPITAL ONE ARENA',
+        'CAREFIRST ARENA'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Northern Virginia jurisdictions',
+      color: 'yellow',
+      items: [
+        'ARLINGTON',
+        'ALEXANDRIA',
+        'FAIRFAX',
+        'LOUDOUN'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___ field',
+      color: 'blue',
+      items: [
+        'MAGNETIC',
+        'OIL',
+        'PLAYING',
+        'CORN'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'DC neighborhoods east of the Anacostia',
+      color: 'purple',
+      items: [
+        'DEANWOOD',
+        'HILLCREST',
+        'PENN BRANCH',
+        'FAIRFAX VILLAGE'
+      ]
+    }
+  ]
+},
+
+'2026-09-30': {
+  number: 17,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC movie theaters',
+      color: 'green',
+      items: [
+        'AVALON',
+        'SUNS',
+        'ALAMO',
+        'E STREET'
+      ]
+    },
+{
+  id: 'yellow',
+  label: 'DC food halls',
+  color: 'yellow',
+  items: [
+    'THE ROOST',
+    'LA COSECHA',
+    'WESTERN MARKET',
+    'THE SQUARE'
+  ]
+},
+    {
+      id: 'blue',
+      label: '___ place',
+      color: 'blue',
+      items: [
+        'BIRTH',
+        'HIDING',
+        'FIRST',
+        'RESTING'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Historic DC homes you can tour',
+      color: 'purple',
+      items: [
+        'TUDOR PLACE',
+        'HILLWOOD',
+        'HEURICH HOUSE',
+        'ANDERSON HOUSE'
+      ]
+    }
+  ]
+},
+
+'2026-10-01': {
+  number: 18,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC waterfront destinations',
+      color: 'green',
+      items: [
+        'THE WHARF',
+        'WASHINGTON HARBOUR',
+        'BUZZARD POINT',
+        'CAPITOL RIVERFRONT'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'One-star Michelin restaurants in DC',
+      color: 'yellow',
+      items: [
+        'BRESCA',
+        'CAUSA',
+        'OYSTER OYSTER',
+        'XIQET'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___ Alley',
+      color: 'blue',
+      items: [
+        'BOWLING',
+        'TIN PAN',
+        'BLIND',
+        'BACK'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'DC alleys and courts',
+      color: 'purple',
+      items: [
+        'BLAGDEN ALLEY',
+        'NAYLOR COURT',
+        "CADY'S ALLEY",
+        'BLUES ALLEY'
+      ]
+    }
+  ]
+},
+
+'2026-10-02': {
+  number: 19,
+  groups: [
+    {
+      id: 'green',
+      label: 'Japanese carmakers',
+      color: 'green',
+      items: [
+        'TOYOTA',
+        'HONDA',
+        'NISSAN',
+        'SUBARU'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'House office buildings in DC',
+      color: 'yellow',
+      items: [
+        'CANNON',
+        'LONGWORTH',
+        'RAYBURN',
+        'FORD'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___ Jackson',
+      color: 'blue',
+      items: [
+        'MICHAEL',
+        'JANET',
+        'BO',
+        'PETER'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Actors born in DC',
+      color: 'purple',
+      items: [
+        'SAMUEL L. JACKSON',
+        'JON BERNTHAL',
+        'KATHERINE HEIGL',
+        'ALYSON HANNIGAN'
+      ]
+    }
+  ]
+},
+  '2026-10-05': {
+  number: 20,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC breweries',
+      color: 'green',
+      items: [
+        'ATLAS',
+        'DC BRAU',
+        'BLUEJACKET',
+        'RIGHT PROPER'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC bagel shops',
+      color: 'yellow',
+      items: [
+        'CALL YOUR MOTHER',
+        'BULLFROG',
+        "PEARL'S",
+        'BAGELS ETC.'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Original Greek Titans',
+      color: 'blue',
+      items: [
+        'CRONUS',
+        'RHEA',
+        'OCEANUS',
+        'HYPERION'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Amphibians that aren’t frogs',
+      color: 'purple',
+      items: [
+        'NEWT',
+        'SALAMANDER',
+        'CAECILIAN',
+        'AXOLOTL'
+      ]
+    }
+  ]
 }
 };
