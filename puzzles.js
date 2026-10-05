@@ -1148,5 +1148,254 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-10-06': {
+  number: 21,
+  groups: [
+    {
+      id: 'green',
+      label: 'Mario franchise characters',
+      color: 'green',
+      items: [
+        'BOWSER',
+        'MARIO',
+        'LUIGI',
+        'YOSHI'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Former DC mayors',
+      color: 'yellow',
+      items: [
+        'BARRY',
+        'WILLIAMS',
+        'FENTY',
+        'GRAY'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC TV stations affiliated with the Big Four networks',
+      color: 'blue',
+      items: [
+        'WRC',
+        'WJLA',
+        'WUSA',
+        'WTTG'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'PBS member stations',
+      color: 'purple',
+      items: [
+        'WETA',
+        'WNET',
+        'WHYY',
+        'KQED'
+      ]
+    }
+  ]
+},
+
+'2026-10-07': {
+  number: 22,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC pro teams that play home games indoors',
+      color: 'green',
+      items: [
+        'WIZARDS',
+        'CAPITALS',
+        'MYSTICS',
+        'GO-GO'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'NFL team names ending in “-ers”',
+      color: 'yellow',
+      items: [
+        'COMMANDERS',
+        'PACKERS',
+        'STEELERS',
+        'RAIDERS'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC ramen shops',
+      color: 'blue',
+      items: [
+        'DAIKAYA',
+        'MENYA HOSAKI',
+        'SAKURAMEN',
+        'BANTAM KING'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Types of Japanese noodles',
+      color: 'purple',
+      items: [
+        'UDON',
+        'SOBA',
+        'SOMEN',
+        'SHIRATAKI'
+      ]
+    }
+  ]
+},
+
+'2026-10-08': {
+  number: 23,
+  groups: [
+    {
+      id: 'green',
+      label: 'Military ranks',
+      color: 'green',
+      items: [
+        'MAJOR',
+        'CAPTAIN',
+        'COLONEL',
+        'GENERAL'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Things found in a museum',
+      color: 'yellow',
+      items: [
+        'DOCENT',
+        'ARTIFACT',
+        'EXHIBIT',
+        'CURATOR'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Metro transfer stations',
+      color: 'blue',
+      items: [
+        'METRO CENTER',
+        'GALLERY PLACE',
+        "L'ENFANT PLAZA",
+        'FORT TOTTEN'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'DC sports mascots',
+      color: 'purple',
+      items: [
+        'SCREECH',
+        'SLAPSHOT',
+        'MAJOR TUDDY',
+        'TALON'
+      ]
+    }
+  ]
+},
+
+'2026-10-09': {
+  number: 24,
+  groups: [
+    {
+      id: 'green',
+      label: 'Flowers',
+      color: 'green',
+      items: [
+        'TULIP',
+        'DAISY',
+        'LILY',
+        'IRIS'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Tree species commonly used as wood',
+      color: 'yellow',
+      items: [
+        'OAK',
+        'MAPLE',
+        'WALNUT',
+        'MAHOGANY'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'DC pizza spots',
+      color: 'blue',
+      items: [
+        '2 AMYS',
+        "ANDY'S",
+        'MENOMALE',
+        'TIMBER'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'DC bakeries',
+      color: 'purple',
+      items: [
+        'BREAD FURST',
+        'BAKED & WIRED',
+        'SEYLOU',
+        'ROSE AVE'
+      ]
+    }
+  ]
+},
+
+'2026-10-12': {
+  number: 25,
+  groups: [
+    {
+      id: 'green',
+      label: 'Fish anatomy',
+      color: 'green',
+      items: [
+        'GILL',
+        'FIN',
+        'SCALE',
+        'TAIL'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Things commonly kept in a vault',
+      color: 'yellow',
+      items: [
+        'CASH',
+        'GOLD',
+        'JEWELS',
+        'DOCUMENTS'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Cabinet departments headquartered in DC',
+      color: 'blue',
+      items: [
+        'STATE',
+        'JUSTICE',
+        'TREASURY',
+        'COMMERCE'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Musicians born in DC',
+      color: 'purple',
+      items: [
+        'DUKE ELLINGTON',
+        'MARVIN GAYE',
+        'JOHNNY GILL',
+        'GINUWINE'
+      ]
+    }
+  ]
 }
 };
