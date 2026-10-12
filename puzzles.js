@@ -1397,5 +1397,54 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-10-13': {
+  number: 26,
+  groups: [
+    {
+      id: 'green',
+      label: 'Foreign Revolutionary War figures with statues in Lafayette Square',
+      color: 'green',
+      items: [
+        'LAFAYETTE',
+        'ROCHAMBEAU',
+        'KOSCIUSZKO',
+        'VON STEUBEN'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Coffee companies founded in DC',
+      color: 'yellow',
+      items: [
+        'COMPASS',
+        "SWING'S",
+        'PEREGRINE',
+        'VIGILANTE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'U.S. state capitals',
+      color: 'blue',
+      items: [
+        'JACKSON',
+        'AUSTIN',
+        'DENVER',
+        'PHOENIX'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Companies founded in Seattle',
+      color: 'purple',
+      items: [
+        'STARBUCKS',
+        'BOEING',
+        'NORDSTROM',
+        'COSTCO'
+      ]
+    }
+  ]
 }
 };
