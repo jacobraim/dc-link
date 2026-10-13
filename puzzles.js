@@ -1446,5 +1446,103 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-10-14': {
+  number: 27,
+  groups: [
+    {
+      id: 'green',
+      label: 'Outdoor pools in Northwest DC',
+      color: 'green',
+      items: [
+        'BANNEKER',
+        'FRANCIS',
+        'HEARST',
+        'UPSHUR'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Ethiopian restaurants in Northwest DC',
+      color: 'yellow',
+      items: [
+        'DUKEM',
+        'CHERCHER',
+        'TSEHAY',
+        'ELFEGNE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '20th-century U.S. presidents',
+      color: 'blue',
+      items: [
+        'WILSON',
+        'TRUMAN',
+        'HOOVER',
+        'CARTER'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Writing scripts',
+      color: 'purple',
+      items: [
+        'ETHIOPIC',
+        'CYRILLIC',
+        'LATIN',
+        'GREEK'
+      ]
+    }
+  ]
+},
+  '2026-10-15': {
+  number: 28,
+  groups: [
+    {
+      id: 'green',
+      label: 'Fast-casual brands that started in DC',
+      color: 'green',
+      items: [
+        'SWEETGREEN',
+        '&PIZZA',
+        'RASA',
+        'LITTLE SESAME'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Washington QBs drafted in the first round',
+      color: 'yellow',
+      items: [
+        'SHULER',
+        'RAMSEY',
+        'CAMPBELL',
+        'GRIFFIN'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Sparkling wines',
+      color: 'blue',
+      items: [
+        'CAVA',
+        'PROSECCO',
+        'CHAMPAGNE',
+        'SEKT'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Family relationships',
+      color: 'purple',
+      items: [
+        'COUSINS',
+        'SIBLINGS',
+        'PARENTS',
+        'IN-LAWS'
+      ]
+    }
+  ]
 }
 };
