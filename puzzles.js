@@ -1544,5 +1544,103 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-10-16': {
+  number: 29,
+  groups: [
+    {
+      id: 'green',
+      label: 'Civil War forts in DC',
+      color: 'green',
+      items: [
+        'STEVENS',
+        'DERUSSY',
+        'MAHAN',
+        'CHAPLIN'
+      ]
+    },
+{
+  id: 'yellow',
+  label: 'Prince George’s County Metro stations',
+  color: 'yellow',
+  items: [
+    'HYATTSVILLE CROSSING',
+    'GREENBELT',
+    'DOWNTOWN LARGO',
+    'SUITLAND'
+  ]
+},
+    {
+      id: 'blue',
+      label: 'Plants',
+      color: 'blue',
+      items: [
+        'LAUREL',
+        'IVY',
+        'HOLLY',
+        'FERN'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Types of jackets',
+      color: 'purple',
+      items: [
+        'BOMBER',
+        'DENIM',
+        'VARSITY',
+        'PUFFER'
+      ]
+    }
+  ]
+},
+'2026-10-19': {
+  number: 30,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC neighborhoods beginning with B',
+      color: 'green',
+      items: [
+        'BRIGHTWOOD',
+        'BROOKLAND',
+        'BRENTWOOD',
+        'BELLEVUE'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Maryland county seats',
+      color: 'yellow',
+      items: [
+        'ROCKVILLE',
+        'UPPER MARLBORO',
+        'FREDERICK',
+        'ANNAPOLIS'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'College towns',
+      color: 'blue',
+      items: [
+        'COLLEGE PARK',
+        'ANN ARBOR',
+        'BERKELEY',
+        'ATHENS'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Video game companies',
+      color: 'purple',
+      items: [
+        'BETHESDA',
+        'NINTENDO',
+        'SEGA',
+        'CAPCOM'
+      ]
+    }
+  ]
 }
 };
