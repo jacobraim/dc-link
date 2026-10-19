@@ -1642,5 +1642,103 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-10-20': {
+  number: 31,
+  groups: [
+    {
+      id: 'green',
+      label: 'Independent DC sandwich shops',
+      color: 'green',
+      items: [
+        "BUB AND POP'S",
+        "STACHOWSKI'S",
+        "MANGIALARDO'S",
+        'A. LITTERI'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Current DC Public Library branches named for people',
+      color: 'yellow',
+      items: [
+        'DOROTHY I. HEIGHT',
+        'FRANCIS A. GREGORY',
+        'JUANITA E. THORNTON',
+        'WATHA T. DANIEL'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Terms for urban rail',
+      color: 'blue',
+      items: [
+        'SUBWAY',
+        'METRO',
+        'TUBE',
+        'EL'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Gilded Age tycoons',
+      color: 'purple',
+      items: [
+        'CARNEGIE',
+        'ROCKEFELLER',
+        'VANDERBILT',
+        'ASTOR'
+      ]
+    }
+  ]
+}, 
+  '2026-10-21': {
+  number: 32,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC avenues named for states west of the Mississippi',
+      color: 'green',
+      items: [
+        'ALASKA',
+        'COLORADO',
+        'KANSAS',
+        'OREGON'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Local DC record stores',
+      color: 'yellow',
+      items: [
+        'JOINT CUSTODY',
+        'SMASH',
+        'SOM',
+        'BYRDLAND'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Former Soviet republics',
+      color: 'blue',
+      items: [
+        'GEORGIA',
+        'ARMENIA',
+        'ESTONIA',
+        'LATVIA'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Castle features',
+      color: 'purple',
+      items: [
+        'TOWER',
+        'TURRET',
+        'MOAT',
+        'DRAWBRIDGE'
+      ]
+    }
+  ]
 }
 };
