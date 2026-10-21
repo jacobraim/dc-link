@@ -1740,5 +1740,152 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-10-22': {
+  number: 33,
+  groups: [
+    {
+      id: 'green',
+      label: 'Mexican DC restaurants with a Michelin Bib Gourmand',
+      color: 'green',
+      items: [
+        'OYAMEL',
+        'AMPARO FONDITA',
+        'TAQUERIA HABANERO',
+        'LA TEJANA'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC Metro stations named for federal places',
+      color: 'yellow',
+      items: [
+        'ARCHIVES',
+        'SMITHSONIAN',
+        'FEDERAL TRIANGLE',
+        'CAPITOL SOUTH'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Colors',
+      color: 'blue',
+      items: [
+        'YELLOW',
+        'PURPLE',
+        'ORANGE',
+        'BLACK'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Polygons',
+      color: 'purple',
+      items: [
+        'PENTAGON',
+        'HEXAGON',
+        'RHOMBUS',
+        'TRAPEZOID'
+      ]
+    }
+  ]
+},
+  '2026-10-23': {
+  number: 34,
+  groups: [
+    {
+      id: 'green',
+      label: 'Virginia towns along the W&OD Trail',
+      color: 'green',
+      items: [
+        'VIENNA',
+        'HERNDON',
+        'LEESBURG',
+        'PURCELLVILLE'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Virginia independent cities',
+      color: 'yellow',
+      items: [
+        'FALLS CHURCH',
+        'MANASSAS PARK',
+        'BRISTOL',
+        'GALAX'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Chess pieces',
+      color: 'blue',
+      items: [
+        'KING',
+        'QUEEN',
+        'ROOK',
+        'BISHOP'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Pasta shapes',
+      color: 'purple',
+      items: [
+        'PENNE',
+        'ORZO',
+        'FUSILLI',
+        'RIGATONI'
+      ]
+    }
+  ]
+},
+  '2026-10-26': {
+  number: 35,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC neighborhoods that appear in Metro station names',
+      color: 'green',
+      items: [
+        'FOGGY BOTTOM',
+        'VAN NESS',
+        'NOMA',
+        'FRIENDSHIP HEIGHTS'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Movies set primarily in Washington',
+      color: 'yellow',
+      items: [
+        'THE EXORCIST',
+        "ALL THE PRESIDENT'S MEN",
+        "ST. ELMO'S FIRE",
+        'STATE OF PLAY'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Landforms',
+      color: 'blue',
+      items: [
+        'PALISADES',
+        'BUTTE',
+        'MESA',
+        'DELTA'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Netflix series',
+      color: 'purple',
+      items: [
+        'HOUSE OF CARDS',
+        'STRANGER THINGS',
+        'THE CROWN',
+        'BRIDGERTON'
+      ]
+    }
+  ]
 }
 };
