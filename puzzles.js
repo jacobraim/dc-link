@@ -1887,5 +1887,54 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-10-27': {
+  number: 36,
+  groups: [
+    {
+      id: 'green',
+      label: 'Ward 1 neighborhoods',
+      color: 'green',
+      items: [
+        'ADAMS MORGAN',
+        'PARK VIEW',
+        'PLEASANT PLAINS',
+        'LANIER HEIGHTS'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Ice cream brands founded in DC',
+      color: 'yellow',
+      items: [
+        'DOLCEZZA',
+        'ICE CREAM JUBILEE',
+        'HAPPY ICE CREAM',
+        "HERE'S THE SCOOP"
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Jesuit universities',
+      color: 'blue',
+      items: [
+        'GEORGETOWN',
+        'FORDHAM',
+        'GONZAGA',
+        'XAVIER'
+      ]
+    },
+{
+  id: 'purple',
+  label: 'Brands named with two first names',
+  color: 'purple',
+  items: [
+    "BEN & JERRY'S",
+    'HARRY & DAVID',
+    'ALICE + OLIVIA',
+    'CHARLES & KEITH'
+  ]
+}
+  ]
 }
 };
