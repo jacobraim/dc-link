@@ -1936,5 +1936,55 @@ const DC_LINK_PUZZLES = {
   ]
 }
   ]
-}
+},
+  '2026-10-28': {
+  number: 37,
+  groups: [
+    {
+      id: 'green',
+      label: 'Camera terms',
+      color: 'green',
+      items: [
+        'FLASH',
+        'ZOOM',
+        'SHUTTER',
+        'APERTURE'
+      ]
+    },
+{
+  id: 'yellow',
+  label: 'DC comedy clubs',
+  color: 'yellow',
+  items: [
+    'DC IMPROV',
+    'ROOM 808',
+    'HOTBED',
+    'CAPITAL LAUGH'
+  ]
+},
+    {
+      id: 'blue',
+      label: 'Electronic music venues in Northeast DC',
+      color: 'blue',
+      items: [
+        'ECHOSTAGE',
+        'CULTURE',
+        'BERHTA',
+        'A.I.'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'London districts',
+      color: 'purple',
+      items: [
+        'WESTMINSTER',
+        'CHELSEA',
+        'SOHO',
+        'CAMDEN'
+      ]
+    }
+  ]
+},
+
 };
