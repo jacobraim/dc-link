@@ -1986,5 +1986,203 @@ const DC_LINK_PUZZLES = {
     }
   ]
 },
+'2026-10-29': {
+  number: 38,
+  groups: [
+    {
+      id: 'green',
+      label: 'Brands with numbers in their names',
+      color: 'green',
+      items: [
+        'FIVE GUYS',
+        '7-ELEVEN',
+        'FOREVER 21',
+        'SIX FLAGS'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Burger brands that started in DC',
+      color: 'yellow',
+      items: [
+        'LUCKY BUNS',
+        'SWIZZLER',
+        'GOOD STUFF EATERY',
+        'Z-BURGER'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Summer Olympics host cities',
+      color: 'blue',
+      items: [
+        'BARCELONA',
+        'SEOUL',
+        'SYDNEY',
+        'LONDON'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Wine bars that began in DC',
+      color: 'purple',
+      items: [
+        'CORK',
+        'MAXWELL PARK',
+        'PRIMROSE',
+        "LULU'S"
+      ]
+    }
+  ]
+},
 
+'2026-10-30': {
+  number: 39,
+  groups: [
+    {
+      id: 'green',
+      label: 'Arctic animals',
+      color: 'green',
+      items: [
+        'POLAR BEAR',
+        'NARWHAL',
+        'WALRUS',
+        'ARCTIC FOX'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Animals currently at the National Zoo',
+      color: 'yellow',
+      items: [
+        'GIANT PANDA',
+        'ASIAN ELEPHANT',
+        'KOMODO DRAGON',
+        'NAKED MOLE-RAT'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Brands founded in California',
+      color: 'blue',
+      items: [
+        'TACO BELL',
+        'APPLE',
+        'DISNEY',
+        "LEVI'S"
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'DC taco spots that aren’t chains',
+      color: 'purple',
+      items: [
+        'TAQUERIA XOCHI',
+        'MEZCALERO',
+        'CHICATANA',
+        'TAQUERIA AL LADO'
+      ]
+    }
+  ]
+},
+
+'2026-11-02': {
+  number: 40,
+  groups: [
+    {
+      id: 'green',
+      label: 'Companies acquired by Amazon',
+      color: 'green',
+      items: [
+        'WHOLE FOODS',
+        'TWITCH',
+        'AUDIBLE',
+        'RING'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Local DC plant shops',
+      color: 'yellow',
+      items: [
+        'REWILD',
+        'GINKGO GARDENS',
+        'PLNTR',
+        'JUNGLE & LOOM'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Brands born in metro Atlanta',
+      color: 'blue',
+      items: [
+        'HOME DEPOT',
+        'COCA-COLA',
+        'CNN',
+        'WAFFLE HOUSE'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Locally owned DC grocery markets',
+      color: 'purple',
+      items: [
+        'STREETS MARKET',
+        'EACH PEACH',
+        'ODD PROVISIONS',
+        'YES! ORGANIC'
+      ]
+    }
+  ]
+},
+
+'2026-11-03': {
+  number: 41,
+  groups: [
+    {
+      id: 'green',
+      label: 'Astronomical terms',
+      color: 'green',
+      items: [
+        'EQUINOX',
+        'SOLSTICE',
+        'ECLIPSE',
+        'AURORA'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Independent DC bookstores',
+      color: 'yellow',
+      items: [
+        'EAST CITY',
+        'CAPITOL HILL BOOKS',
+        'SANKOFA',
+        'LITTLE DISTRICT'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Brands with an ampersand',
+      color: 'blue',
+      items: [
+        'BARNES & NOBLE',
+        'PROCTER & GAMBLE',
+        'DOLCE & GABBANA',
+        'JOHNSON & JOHNSON'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Locally founded DC fitness businesses',
+      color: 'purple',
+      items: [
+        'VIDA',
+        'BALANCE GYM',
+        'FUSE PILATES',
+        'JADE FITNESS'
+      ]
+    }
+  ]
+}
 };
