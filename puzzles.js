@@ -2184,5 +2184,54 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-11-03': {
+  number: 41,
+  groups: [
+    {
+      id: 'green',
+      label: 'Kinds of trees',
+      color: 'green',
+      items: [
+        'PINE',
+        'BIRCH',
+        'WILLOW',
+        'ASPEN'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'DC hospitals',
+      color: 'yellow',
+      items: [
+        'SIBLEY',
+        'CEDAR HILL',
+        "CHILDREN'S NATIONAL",
+        'WASHINGTON HOSPITAL CENTER'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Dog vocalizations',
+      color: 'blue',
+      items: [
+        'BARK',
+        'GROWL',
+        'WHINE',
+        'YIP'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Things you can crack',
+      color: 'purple',
+      items: [
+        'EGG',
+        'JOKE',
+        'CODE',
+        'SAFE'
+      ]
+    }
+  ]
 }
 };
