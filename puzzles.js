@@ -2233,5 +2233,54 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
+},
+  '2026-11-04': {
+  number: 42,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC doughnut shops',
+      color: 'green',
+      items: [
+        'ASTRO',
+        'DONUT RUN',
+        'GOOD COMPANY',
+        'THE SALTY'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'New emotions introduced in Inside Out 2',
+      color: 'yellow',
+      items: [
+        'ANXIETY',
+        'ENVY',
+        'ENNUI',
+        'EMBARRASSMENT'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___stick',
+      color: 'blue',
+      items: [
+        'JOY',
+        'DRUM',
+        'YARD',
+        'LIP'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Things you can pop',
+      color: 'purple',
+      items: [
+        'BALLOON',
+        'QUESTION',
+        'COLLAR',
+        'WHEELIE'
+      ]
+    }
+  ]
 }
 };
