@@ -2282,5 +2282,54 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
-}
+},
+'2026-11-05': {
+  number: 43,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC secondhand and vintage shops',
+      color: 'green',
+      items: [
+        'GARLIC GIRL',
+        'VINTAGE VINTAGE VINTAGE',
+        'GOLDEN HOUR COLLECTIVE',
+        'SECONDI'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Fictional rodents',
+      color: 'yellow',
+      items: [
+        'SPLINTER',
+        'REMY',
+        'JERRY',
+        'STUART LITTLE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Things with shells',
+      color: 'blue',
+      items: [
+        'EGG',
+        'TACO',
+        'SNAIL',
+        'PISTACHIO'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Teenage Mutant Ninja Turtles',
+      color: 'purple',
+      items: [
+        'LEONARDO',
+        'DONATELLO',
+        'RAPHAEL',
+        'MICHELANGELO'
+      ]
+    }
+  ]
+},
 };
