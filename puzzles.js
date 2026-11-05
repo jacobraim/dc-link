@@ -2332,4 +2332,153 @@ const DC_LINK_PUZZLES = {
     }
   ]
 },
+  '2026-11-06': {
+  number: 44,
+  groups: [
+    {
+      id: 'green',
+      label: 'Continents',
+      color: 'green',
+      items: [
+        'AFRICA',
+        'EUROPE',
+        'AUSTRALIA',
+        'ANTARCTICA'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: '___ Trail',
+      color: 'yellow',
+      items: [
+        'PAPER',
+        'CAMPAIGN',
+        'VAPOR',
+        'APPALACHIAN'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Amazon rainforest animals',
+      color: 'blue',
+      items: [
+        'JAGUAR',
+        'PIRANHA',
+        'ANACONDA',
+        'TOUCAN'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'National Zoo exhibits',
+      color: 'purple',
+      items: [
+        'AMAZONIA',
+        'AMERICAN TRAIL',
+        'ASIA TRAIL',
+        'ELEPHANT TRAILS'
+      ]
+    }
+  ]
+},
+
+'2026-11-09': {
+  number: 45,
+  groups: [
+    {
+      id: 'green',
+      label: 'Transformers characters',
+      color: 'green',
+      items: [
+        'OPTIMUS',
+        'BUMBLEBEE',
+        'MEGATRON',
+        'STARSCREAM'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Things commonly operated by touchscreen',
+      color: 'yellow',
+      items: [
+        'PHONE',
+        'TABLET',
+        'ATM',
+        'SELF-CHECKOUT'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Characters in Hamilton',
+      color: 'blue',
+      items: [
+        'BURR',
+        'ELIZA',
+        'LAURENS',
+        'MULLIGAN'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'DC art spaces',
+      color: 'purple',
+      items: [
+        'TRANSFORMER',
+        'TOUCHSTONE',
+        'ZENITH',
+        'HAMILTONIAN'
+      ]
+    }
+  ]
+},
+
+'2026-11-10': {
+  number: 46,
+  groups: [
+    {
+      id: 'green',
+      label: 'Sesame Street characters',
+      color: 'green',
+      items: [
+        'ELMO',
+        'GROVER',
+        'OSCAR',
+        'BERT'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'White ___',
+      color: 'yellow',
+      items: [
+        'NOISE',
+        'FLAG',
+        'LIE',
+        'WHALE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'US presidents',
+      color: 'blue',
+      items: [
+        'POLK',
+        'TYLER',
+        'FILLMORE',
+        'HARRISON'
+      ]
+    },
+{
+  id: 'purple',
+  label: 'DC neighborhoods in Ward 3',
+  color: 'purple',
+  items: [
+    'FOREST HILLS',
+    'WESLEY HEIGHTS',
+    'CATHEDRAL HEIGHTS',
+    'MASSACHUSETTS AVENUE HEIGHTS'
+  ]
+}
+  ]
+}
 };
