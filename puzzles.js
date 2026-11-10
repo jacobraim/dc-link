@@ -2480,5 +2480,250 @@ const DC_LINK_PUZZLES = {
   ]
 }
   ]
+},
+'2026-11-11': {
+  number: 47,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC restaurants and bars with women’s names',
+      color: 'green',
+      items: [
+        'ANNABELLE',
+        'ELLĒ',
+        'NINA MAY',
+        'JANE JANE'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Sex and the City main characters',
+      color: 'yellow',
+      items: [
+        'CARRIE',
+        'MIRANDA',
+        'CHARLOTTE',
+        'SAMANTHA'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Flightless birds',
+      color: 'blue',
+      items: [
+        'OSTRICH',
+        'EMU',
+        'KIWI',
+        'CASSOWARY'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Batman allies',
+      color: 'purple',
+      items: [
+        'ROBIN',
+        'BATGIRL',
+        'NIGHTWING',
+        'ALFRED'
+      ]
+    }
+  ]
+},
+'2026-11-12': {
+  number: 48,
+  groups: [
+    {
+      id: 'green',
+      label: 'Original Nationals Racing Presidents',
+      color: 'green',
+      items: [
+        'GEORGE',
+        'TOM',
+        'ABE',
+        'TEDDY'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Things you might pay',
+      color: 'yellow',
+      items: [
+        'BILL',
+        'TAB',
+        'TOLL',
+        'RENT'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Homophones of letters',
+      color: 'blue',
+      items: [
+        'SEA',
+        'WHY',
+        'YOU',
+        'ARE'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Things with teeth',
+      color: 'purple',
+      items: [
+        'COMB',
+        'SAW',
+        'ZIPPER',
+        'SHARK'
+      ]
+    }
+  ]
+},
+'2026-11-13': {
+  number: 49,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC coffee shops',
+      color: 'green',
+      items: [
+        'DOUBLES',
+        'SLIPSTREAM',
+        'SIDAMO',
+        'CAMEO'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Tennis scoring terms',
+      color: 'yellow',
+      items: [
+        'LOVE',
+        'DEUCE',
+        'ADVANTAGE',
+        'GAME'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___case',
+      color: 'blue',
+      items: [
+        'BRIEF',
+        'SUIT',
+        'BOOK',
+        'STAIR'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Words with a silent B',
+      color: 'purple',
+      items: [
+        'LAMB',
+        'THUMB',
+        'DEBT',
+        'SUBTLE'
+      ]
+    }
+  ]
+},
+  '2026-11-16': {
+  number: 50,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC Italian restaurants',
+      color: 'green',
+      items: [
+        'CENTROLINA',
+        "L'ARDENTE",
+        "CARUSO'S GROCERY",
+        'OSTERIA MORINI'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Batman villains',
+      color: 'yellow',
+      items: [
+        'JOKER',
+        'PENGUIN',
+        'RIDDLER',
+        'BANE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Birds that can fly',
+      color: 'blue',
+      items: [
+        'ROBIN',
+        'RAVEN',
+        'FALCON',
+        'HERON'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Words that can precede “man”',
+      color: 'purple',
+      items: [
+        'SUPER',
+        'SPIDER',
+        'IRON',
+        'SAND'
+      ]
+    }
+  ]
+},
+  '2026-11-17': {
+  number: 51,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC memorials honoring U.S. presidents',
+      color: 'green',
+      items: [
+        'LINCOLN',
+        'JEFFERSON',
+        'FDR',
+        'EISENHOWER'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Playing card ranks',
+      color: 'yellow',
+      items: [
+        'KING',
+        'QUEEN',
+        'JACK',
+        'ACE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___berry',
+      color: 'blue',
+      items: [
+        'BLUE',
+        'BLACK',
+        'STRAW',
+        'RASP'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Fruits with pits',
+      color: 'purple',
+      items: [
+        'PEACH',
+        'CHERRY',
+        'PLUM',
+        'APRICOT'
+      ]
+    }
+  ]
 }
 };
