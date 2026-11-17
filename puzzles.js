@@ -2725,5 +2725,253 @@ const DC_LINK_PUZZLES = {
       ]
     }
   ]
-}
+},
+  '2026-11-18': {
+  number: 52,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC government agencies by abbreviation',
+      color: 'green',
+      items: [
+        'DOC',
+        'DMV',
+        'DPR',
+        'DOES'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: '___ Hour',
+      color: 'yellow',
+      items: [
+        'HAPPY',
+        'RUSH',
+        'GOLDEN',
+        'WITCHING'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___ Cat',
+      color: 'blue',
+      items: [
+        'GRUMPY',
+        'CHESHIRE',
+        'COOL',
+        'SCAREDY'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Shy',
+      color: 'purple',
+      items: [
+        'BASHFUL',
+        'TIMID',
+        'COY',
+        'RETICENT'
+      ]
+    }
+  ]
+},
+
+'2026-11-19': {
+  number: 53,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC quadrants',
+      color: 'green',
+      items: [
+        'NW',
+        'NE',
+        'SW',
+        'SE'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Types of knots',
+      color: 'yellow',
+      items: [
+        'BOWLINE',
+        'CLOVE',
+        'SHEET BEND',
+        'FIGURE EIGHT'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'A small amount',
+      color: 'blue',
+      items: [
+        'BIT',
+        'DAB',
+        'TAD',
+        'TRACE'
+      ]
+    },
+    {
+      id: 'purple',
+      label: '___board',
+      color: 'purple',
+      items: [
+        'DASH',
+        'SCORE',
+        'SURF',
+        'STORY'
+      ]
+    }
+  ]
+},
+
+'2026-11-20': {
+  number: 54,
+  groups: [
+    {
+      id: 'green',
+      label: 'DCPS elementary schools',
+      color: 'green',
+      items: [
+        'ROSS',
+        'JANNEY',
+        'MURCH',
+        'MAURY'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Young animals',
+      color: 'yellow',
+      items: [
+        'JOEY',
+        'CALF',
+        'FOAL',
+        'KIT'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Moons of Saturn',
+      color: 'blue',
+      items: [
+        'PHOEBE',
+        'TITAN',
+        'MIMAS',
+        'IAPETUS'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Arizona cities',
+      color: 'purple',
+      items: [
+        'CHANDLER',
+        'TEMPE',
+        'TUCSON',
+        'FLAGSTAFF'
+      ]
+    }
+  ]
+},
+'2026-11-23': {
+  number: 55,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC music venues',
+      color: 'green',
+      items: [
+        'SONGBYRD',
+        'PIE SHOP',
+        "MADAM'S ORGAN",
+        'THE POCKET'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Types of clouds',
+      color: 'yellow',
+      items: [
+        'CIRRUS',
+        'CUMULUS',
+        'STRATUS',
+        'NIMBUS'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Criticize',
+      color: 'blue',
+      items: [
+        'KNOCK',
+        'PAN',
+        'SLAM',
+        'ROAST'
+      ]
+    },
+    {
+      id: 'purple',
+      label: '___ Horse',
+      color: 'purple',
+      items: [
+        'CHARLEY',
+        'TROJAN',
+        'ROCKING',
+        'DARK'
+      ]
+    }
+  ]
+},
+
+'2026-11-24': {
+  number: 56,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC restaurants',
+      color: 'green',
+      items: [
+        'DARU',
+        'MITA',
+        'PASCUAL',
+        'MARCUS'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Spices',
+      color: 'yellow',
+      items: [
+        'CUMIN',
+        'PAPRIKA',
+        'TURMERIC',
+        'FENNEL'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___fish',
+      color: 'blue',
+      items: [
+        'STAR',
+        'JELLY',
+        'SWORD',
+        'CAT'
+      ]
+    },
+    {
+      id: 'purple',
+      label: '___storm',
+      color: 'purple',
+      items: [
+        'BRAIN',
+        'FIRE',
+        'THUNDER',
+        'HAIL'
+      ]
+    }
+  ]
+},
 };
