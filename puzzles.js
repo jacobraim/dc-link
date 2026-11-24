@@ -2974,4 +2974,253 @@ const DC_LINK_PUZZLES = {
     }
   ]
 },
+  '2026-11-25': {
+  number: 57,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC neighborhoods',
+      color: 'green',
+      items: [
+        'KENT',
+        'CHINATOWN',
+        'TRINIDAD',
+        'EDGEWOOD'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Slang for a home run',
+      color: 'yellow',
+      items: [
+        'HOMER',
+        'DINGER',
+        'TATER',
+        'BLAST'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'US public transit systems by abbreviation',
+      color: 'blue',
+      items: [
+        'BART',
+        'MARTA',
+        'SEPTA',
+        'MBTA'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Members of the Three Stooges',
+      color: 'purple',
+      items: [
+        'MOE',
+        'LARRY',
+        'CURLY',
+        'SHEMP'
+      ]
+    }
+  ]
+},
+
+'2026-11-26': {
+  number: 58,
+  groups: [
+    {
+      id: 'green',
+      label: 'Supermarket chains in DC',
+      color: 'green',
+      items: [
+        'GIANT',
+        'SAFEWAY',
+        'WEGMANS',
+        'HARRIS TEETER'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Thanksgiving sides',
+      color: 'yellow',
+      items: [
+        'STUFFING',
+        'YAMS',
+        'GREEN BEANS',
+        'MASHED POTATOES'
+      ]
+    },
+    {
+      id: 'blue',
+      label: '___ Roll',
+      color: 'blue',
+      items: [
+        'DINNER',
+        'HONOR',
+        'SUSHI',
+        'PAY'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Football penalties',
+      color: 'purple',
+      items: [
+        'HOLDING',
+        'OFFSIDE',
+        'TRIPPING',
+        'FACEMASK'
+      ]
+    }
+  ]
+},
+
+'2026-11-27': {
+  number: 59,
+  groups: [
+    {
+      id: 'green',
+      label: 'First names of Washington pro sports MVPs',
+      color: 'green',
+      items: [
+        'ALEX',
+        'BRYCE',
+        'ELENA',
+        'WES'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Things you can clip',
+      color: 'yellow',
+      items: [
+        'COUPON',
+        'NAILS',
+        'WINGS',
+        'HEDGE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Types of haircuts',
+      color: 'blue',
+      items: [
+        'BUZZ',
+        'CREW',
+        'PIXIE',
+        'BOWL'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Price ___',
+      color: 'purple',
+      items: [
+        'TAG',
+        'POINT',
+        'CHECK',
+        'DROP'
+      ]
+    }
+  ]
+},
+
+'2026-11-30': {
+  number: 60,
+  groups: [
+    {
+      id: 'green',
+      label: 'Major companies headquartered in the DC area',
+      color: 'green',
+      items: [
+        'MARS',
+        'MARRIOTT',
+        'HILTON',
+        'CAPITAL ONE'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Choir voice parts',
+      color: 'yellow',
+      items: [
+        'SOPRANO',
+        'ALTO',
+        'TENOR',
+        'BASS'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Types of hats',
+      color: 'blue',
+      items: [
+        'FEDORA',
+        'BERET',
+        'BEANIE',
+        'SOMBRERO'
+      ]
+    },
+    {
+      id: 'purple',
+      label: '___cap',
+      color: 'purple',
+      items: [
+        'NIGHT',
+        'BOTTLE',
+        'SALARY',
+        'THINKING'
+      ]
+    }
+  ]
+},
+
+'2026-12-01': {
+  number: 61,
+  groups: [
+    {
+      id: 'green',
+      label: 'DC pizzerias',
+      color: 'green',
+      items: [
+        'COMET',
+        'MARTHA DEAR',
+        'STELLINA',
+        'PUPATELLA'
+      ]
+    },
+    {
+      id: 'yellow',
+      label: 'Female animals',
+      color: 'yellow',
+      items: [
+        'VIXEN',
+        'DOE',
+        'EWE',
+        'MARE'
+      ]
+    },
+    {
+      id: 'blue',
+      label: 'Things associated with a bow',
+      color: 'blue',
+      items: [
+        'CUPID',
+        'VIOLIN',
+        'SHIP',
+        'GIFT'
+      ]
+    },
+    {
+      id: 'purple',
+      label: 'Olympic track and field gold medalists by surname',
+      color: 'purple',
+      items: [
+        'RUDOLPH',
+        'OWENS',
+        'FELIX',
+        'LEWIS'
+      ]
+    }
+  ]
+},
 };
